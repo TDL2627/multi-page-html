@@ -71,5 +71,12 @@ nav{
 }
 table{
     background-color: white;
-    
+    align-self: center;
+    margin-left:25%;
+}
+#vid{
+  margin-left:5%;
+}
+h3{
+    color: blue;
 }
