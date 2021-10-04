@@ -35,8 +35,7 @@ label,h3{
 }
 legend{
     color:white;
-    width: fit-content;
-    align-self: center;
+    
 }
 fieldset{
     width: fit-content;
@@ -86,7 +85,7 @@ h3{
     animation-duration: 1s;
     animation-iteration-count: 1;
 }
-#name{
+#Uname{
     
     animation-name: slide-in-right;
      animation-duration: 1.5s;
@@ -94,6 +93,9 @@ h3{
  }
  #pp{
      width: 100%;
+ }
+ #ppU{
+     margin-left: 25%;
  }
 /* animations */
 .slide-in-left {
