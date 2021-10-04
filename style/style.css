@@ -75,8 +75,9 @@ table{
     margin-left:25%;
     text-align: center;
 }
+/* video */
 #vid{
-  margin-left:5%;
+  margin-left:5%
 }
 h3{
     color: gold;
@@ -118,7 +119,7 @@ h4{
      background-color: black;
      width: 100%;
      color: gold;
-     position: fixed;
+     
  }
 /* animations */
 .slide-in-left {
