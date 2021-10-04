@@ -102,12 +102,16 @@ h4{
  }
  /* pic on index */
  #pp{
-     width: 100%;
+     
      animation-name: swing-in-left-bck;
      animation-duration: 2s;
      animation-iteration-count: 1;
      border-radius: 50%;
-     border:gold solid;
+     border:red solid;
+     height:100%;
+     width:100%;
+
+     
  }
  #ppU{
      margin-left: 25%;
