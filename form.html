@@ -9,13 +9,23 @@
 </head>
 <body>
       <!-- nav -->
-<nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="about.html">About page</a></li>
-    </ul>
-  </nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Contact</a>
+        <a href="projects.html">Project</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div> 
+      <script>
+          function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+} 
+      </script>
   <br>
   <br>
   <br>
@@ -94,6 +104,9 @@
   <button id="rbut" type="reset">Reset</button>
     <button id="sub" type="submit">Submit</button> 
 </form>
-
+<footer>
+  <p>Created by TDL2627</p>
+  <p>AKA Ashley Kannemeyer</p>
+</footer>
 </body>
 </html>

@@ -9,13 +9,23 @@
 </head>
 <body>
       <!-- nav -->
-<nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-    <li><a href="form.html">Contact</a></li>
-    <li><a href="#">About page</a></li>
-    </ul>
-  </nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="form.html">Contact</a>
+        <a href="projects.html">Project</a>
+        <a href="#">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div> 
+      <script>
+          function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+} 
+      </script>
   <br>
   <br>
   <br>
@@ -28,7 +38,7 @@
  <br>
  <br>
  <div class="first">
- <u><h3>What software languages does I use?</h3></u>
+ <u><h3>What software languages do I use?</h3></u>
  <table border="2">
    <tr><th>Language's known</th></tr>
    <td>HTML5</td>
@@ -54,5 +64,9 @@
 <iframe width="300" height="315" src="https://www.youtube.com/embed/2-VKC8g2u1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
+<footer>
+  <p>Created by TDL2627</p>
+  <p>AKA Ashley Kannemeyer</p>
+</footer>
 </body>
 </html>
