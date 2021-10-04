@@ -19,6 +19,7 @@ form{
     border: black;
     align-self: center;
     text-align: center;
+    padding-bottom: 25px;
     
 }
 #rbut{
@@ -72,6 +73,7 @@ table{
     background-color: white;
     align-self: center;
     margin-left:25%;
+    text-align: center;
 }
 #vid{
   margin-left:5%;
@@ -105,9 +107,18 @@ h4{
  .first{
       border: white solid ;
       background-color: black;
+      padding-bottom: 20px;
  }
  u{
      color: white;
+ }
+ /* FOOTER */
+ footer{
+     text-align: center;
+     background-color: black;
+     width: 100%;
+     color: gold;
+     position: fixed;
  }
 /* animations */
 .slide-in-left {
