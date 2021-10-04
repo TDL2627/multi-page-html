@@ -74,16 +74,17 @@ nav{
 table{
     background-color: white;
     align-self: center;
-    margin-left:25%;
+    margin-left:40%;
     text-align: center;
     
 }
 /* video */
 #vid{
-  margin-left:5%
+  margin-left:35%;
 }
 h3{
     color: red;
+    text-align: center;
 }
 h4{
     color: whitesmoke;
@@ -102,14 +103,14 @@ h4{
  }
  /* pic on index */
  #pp{
-     
-     animation-name: swing-in-left-bck;
-     animation-duration: 2s;
-     animation-iteration-count: 1;
-     border-radius: 50%;
-     border:red solid;
-     height:100%;
-     width:100%;
+  animation-name: swing-in-left-bck;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  border-radius: 50%;
+  border:red solid;
+  height:100%;
+  width:40%;
+  margin-left: 27%;
 
      
  }
@@ -360,3 +361,14 @@ h4{
     text-align: left;
   }
 } 
+@media screen and (max-width: 350px) {
+  #pp{
+    animation-name: swing-in-left-bck;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    border-radius: 50%;
+    border:red solid;
+    height:100%;
+    width:100%;
+}
+}
