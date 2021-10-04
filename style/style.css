@@ -42,6 +42,7 @@ fieldset{
     width: fit-content;
     align-self: center;
     text-align: center;
+    margin-left: 20px;
 }
 li{
     display: inline;
