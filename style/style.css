@@ -94,15 +94,20 @@ h4{
      animation-duration: 1.5s;
      animation-iteration-count: 1;
  }
+ /* pic on index */
  #pp{
      width: 100%;
  }
  #ppU{
      margin-left: 25%;
  }
+ /* card */
  .first{
       border: white solid ;
       background-color: black;
+ }
+ u{
+     color: white;
  }
 /* animations */
 .slide-in-left {
