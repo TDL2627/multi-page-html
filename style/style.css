@@ -77,7 +77,10 @@ table{
   margin-left:5%;
 }
 h3{
-    color: blue;
+    color: gold;
+}
+h4{
+    color: whitesmoke;
 }
 #intro{
     
@@ -96,6 +99,10 @@ h3{
  }
  #ppU{
      margin-left: 25%;
+ }
+ .first{
+      border: white solid ;
+      background-color: black;
  }
 /* animations */
 .slide-in-left {
