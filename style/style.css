@@ -78,17 +78,19 @@ nav{
 table{
     background-color: white;
     align-self: center;
-    margin-left:45%;
     text-align: center;
-    
+    align-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
 }
-/* video */
-#vid{
-  margin-left:20%;
-}
+
 h3{
     color: red;
     text-align: center;
+    align-self: center;
+    
+   
 }
 h4{
     color: whitesmoke;
