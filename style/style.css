@@ -4,24 +4,27 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
   height: 100%vh;
-  text-align: center;
+  
 }
 h1,h3,h4{
     color: red;
     text-align: center;
 }
 form{
-    align-items: center;
-    width: 100%;
+    
+    
     background: rgba( 7, 7, 7, 0.7 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );border-radius: 10px;border: 1px solid rgba( 255, 255, 255, 0.18 );
     /* margin-left: 35%;
-    margin-right: 35%;
+    /* margin-right: 35%;
     margin-top:5%;
-    margin-bottom:5%; */
+    margin-bottom:5%; */ 
     border: black;
     align-self: center;
-    text-align: center;
+  
     padding-bottom: 25px;
+   
+
+    
     
 }
 #rbut{
@@ -43,7 +46,7 @@ legend{
 fieldset{
     width: fit-content;
     align-self: center;
-    text-align: center;
+   
     margin-left: 20px;
 }
 li{
@@ -482,7 +485,7 @@ h4{
 /* Style the back side */
 .flip-card-back {
   
-  background-color: lightcoral;
+  background-color: #bbb;
   color: white;
   transform: rotateY(180deg);
   height: 400px;
