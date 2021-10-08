@@ -505,3 +505,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   
   text-align: center;
 }
+@media screen and (max-width: 480px) {
+ .grid-container{
+   display: grid;
+   grid-template-columns: auto;
+   grid-row-gap: 100px;
+ }
+ .grid-item {
+  
+  text-align: center;
+}
+}
