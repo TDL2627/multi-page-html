@@ -1,54 +1,42 @@
 body{
    text-align: center;
-    background: url(/images/b1.jpg) no-repeat;
+    background: url(/images/bg.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
   height: 100%vh;
   
 }
 h1,h3,h4{
-    color: red;
+    color:whitesmoke;
     text-align: center;
 }
 form{
-    
-    
-    background: rgba( 7, 7, 7, 0.7 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );border-radius: 10px;border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba( 7, 7, 7, 0.7 );box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );border-radius: 10px;border: 1px solid rgba( 255, 255, 255, 0.18 );
     /* margin-left: 35%;
     /* margin-right: 35%;
     margin-top:5%;
     margin-bottom:5%; */ 
     border: black;
     align-self: center;
-  
+   margin-bottom: 100px;
     padding-bottom: 25px;
+  
    
 
+
     
-    
 }
-#rbut{
-    margin-right: 150px;
-    color: white;
-    background-color: red;
+#wapp{
+  position: fixed;
+  right: 0;
+  top: 0;
+  
 }
-#sub{
-    color: white;
-    background-color: green;
-}
+
 label,h3{
     color: white;
 }
-legend{
-    color:white;
-    
-}
-fieldset{
-    width: fit-content;
-    align-self: center;
-   
-    margin-left: 20px;
-}
+
 li{
     display: inline;
 }
@@ -69,6 +57,7 @@ nav{
   left: 0;
   right: 0;
   top: -16px;
+  
 }
 #map{
     align-self: center;
@@ -86,7 +75,7 @@ table{
 }
 
 h3{
-    color: red;
+    color:white;
     text-align: center;
     align-self: center;
     
@@ -135,15 +124,21 @@ h4{
  /* FOOTER */
  footer{
      text-align: center;
-     background-color: black;
+     background: rgba( 99, 215, 232, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
      width: 100%;
-     color: red;
+     color: whitesmoke;
      margin-bottom: 0%;
      padding-top:10px;
      padding-bottom: 10px;
-    position: sticky;
+    position: fixed;
      bottom: 0;
-    
+    right: 0;
+    left: 0;
  }
 
 /* animations */
