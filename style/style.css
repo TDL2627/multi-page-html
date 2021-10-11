@@ -263,6 +263,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   top: 0;
   left:0;
   width: 100%;
+  z-index: 9999;
   overflow: hidden;
 }
 
@@ -454,6 +455,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
  .flip-card {
   background-color: transparent;
   width: 300px;
+  z-index: 27;
   height: 200px;
   border: blue;
   display: inline-block;
