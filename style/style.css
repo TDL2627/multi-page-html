@@ -20,17 +20,22 @@ form{
     align-self: center;
    margin-bottom: 100px;
     padding-bottom: 25px;
-  
    
-
-
-    
+}
+input{
+  height: 40px;
+  width: 200px;
+  border-radius: 25%;
 }
 #wapp{
   position: fixed;
   right: 0;
   top: 0;
   
+}
+#details
+{
+  border-radius: 10%;
 }
 
 label,h3{
@@ -605,4 +610,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   overflow: scroll;
   padding: 100px;
   margin-bottom: 150px;
+}
+/* rating */
+.checked {
+  color: red;
 }
