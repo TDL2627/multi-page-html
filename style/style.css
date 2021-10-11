@@ -69,9 +69,13 @@ table{
     align-self: center;
     text-align: center;
     align-content: center;
-    width: 100%;
-    background-color: black;
-    color: white;
+    width: 50%;
+    margin-left: 25%;
+    color: black;
+}
+th{
+  background-color: lightblue;
+  border: lightblue;
 }
 
 h3{
@@ -142,6 +146,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
      bottom: 0;
     right: 0;
     left: 0;
+    height: 50px;
  }
 
 /* animations */
@@ -481,17 +486,18 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: rgb(255, 224, 110);
   border-color: black !important;
   height: 250px;
   width: 250px;
   margin-bottom: 50px;
+  border-radius: 5%;
 }
 
 /* Style the back side */
 .flip-card-back {
-  
-  background-color: #bbb;
+  border-radius: 5%;
+  background-color: rgb(255, 224, 110);
   color: black;
   transform: rotateY(180deg);
   height: 250px;
@@ -502,13 +508,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
- grid-row-gap:100px ;
+ grid-gap: 100px 100px;
  margin-bottom: 200px;
  width: 100%;
+ justify-content: space-evenly;
   
 }
 .grid-item {
-  
+  justify-content: space-evenly;
   text-align: center;
 }
 @media screen and (max-width: 700px) {
