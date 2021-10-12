@@ -811,7 +811,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .checked {
   color: red;
 }
+/* project */
 .card{
+  height: 300px;
+  width: 300px;
   border:2px cyan solid;
   padding: 27px;
 }
@@ -819,7 +822,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   flex-wrap: wrap;
   padding: 26px;
   display: flex;
-  background-color: red;
+  
   justify-content: space-evenly;
 }
 @media screen and (max-width: 450px) {
