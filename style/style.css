@@ -822,8 +822,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     width:100%;
 }
 .typewriter h1 {
-  color: #fff;
-  font-size: large;
+  color: gold;
+  font-size: 20px;
   width: 100%;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -840,8 +840,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 @media screen and (max-width: 1000px) {
 
 .typewriter h1 {
-  color: #fff;
-  font-size: small;
+  color: gold;
+ text-decoration: underline;
+  margin-left: 25%;
+  font-size: 20px;
   width: 100%;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
