@@ -811,6 +811,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .checked {
   color: red;
 }
+.card{
+  border:2px cyan solid;
+  padding: 27px;
+}
+.flexer{
+  flex-wrap: wrap;
+  padding: 26px;
+  display: flex;
+  background-color: red;
+  justify-content: space-evenly;
+}
 @media screen and (max-width: 450px) {
   #pp{
     animation-name: swing-in-left-bck;
@@ -820,6 +831,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     border:blue solid;
     height:100%;
     width:100%;
+}
+h1{
+  margin-top: 50px;
+  font-size: 20px !important;
 }
 .typewriter h1 {
   color: gold;
