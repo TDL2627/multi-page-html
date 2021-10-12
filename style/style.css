@@ -817,13 +817,31 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   width: 300px;
   border:2px cyan solid;
   padding: 27px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  background-color:rgb(255, 224, 110) ;
+  color: #000;
+  border-radius: 5%;
+}
+h4{
+  color: #000;
+}
+.card-text{
+  color: cyan;
+  background-color: black;
+  border: black 2px solid;
+  margin-left: 25%;
+  margin-right: 25%;
+  
 }
 .flexer{
   flex-wrap: wrap;
   padding: 26px;
   display: flex;
-  
   justify-content: space-evenly;
+  align-content: space-around;
 }
 @media screen and (max-width: 450px) {
   #pp{
