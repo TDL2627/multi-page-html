@@ -170,6 +170,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
  }
  .typewriter h1 {
   color: #fff;
+  
   font-size: 90px;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -810,7 +811,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .checked {
   color: red;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   #pp{
     animation-name: swing-in-left-bck;
     animation-duration: 2s;
@@ -820,6 +821,24 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     height:100%;
     width:100%;
 }
+.typewriter h1 {
+  color: #fff;
+  font-size: large;
+  width: 100%;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid cyan; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+}
+@media screen and (max-width: 1000px) {
+
 .typewriter h1 {
   color: #fff;
   font-size: small;
