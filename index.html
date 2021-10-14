@@ -9,7 +9,7 @@
 
   <title>TDL2627's basic multi-page website </title>
 </head>
-<body>
+<body onload="myFunction1()">
   <!-- nav -->
   <div class="topnav" id="myTopnav">
     <a href="#" class="active"><img src="/images/hicon.png" alt="home"></a>
@@ -29,15 +29,30 @@ x.className += " responsive";
 x.className = "topnav";
 }
 } 
-  </script>
 
+
+var myVar;
+
+function myFunction1() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
+  </script>
+<div id="loader"></div>
   <br>
+  <div style="display:none;" id="myDiv">
 <h1 id="intro">Welcome to:</h1>
 <div class="typewriter">
   <h1>Ashley Kannemeyer's</h1>
 </div>
 
 <h1 class="folio">PORTFOLIO</h1>
+</div>
 <br>
 <br>
 
