@@ -31,11 +31,15 @@ body{
 /* main content */
 .main {
   margin-left: 250px; /* Same as the width of the sidebar */
+  margin-bottom: 0;
   
 }
 .navbar{
   display: none !important;
   background-color: red !important;
+}
+.nav-link{
+  color: white !important;
 }
 /* side stuff */
 #sidePic{
@@ -59,33 +63,73 @@ body{
 h1{
   color: white;
 }
-
+p{
+  color: white;
+}
+#uppity{
+  position: fixed;
+  right:0;
+  bottom: 0;
+  border-radius: 25px;
+  background-color: rgb(75, 75, 75);
+  z-index: 27;
+  margin:10px;
+  text-decoration: none;
+}
 /* section1 */
 #section1{
-  padding-top: 300px;
-  padding-bottom: 300px;
+ padding-top: 200px;
   background:url(/images/WhatsApp\ Image\ 2021-10-25\ at\ 2.04.26\ PM\ \(1\).jpeg);
-  
+  height: 900px;
   background-repeat: none;
   background-size: cover;
 
   margin: 0;
 }
+#down{
+  margin-top: 250px;
+  background-color: grey;
+  border-radius: 50%;
+  
+}
 
 /* section2 */
 #section2{
  background-color: darkgray;
+ height: 1000px;
 }
 
 /* section3 */
 #section3{
   background-color: darkgoldenrod;
+  height: 1000px;
+}
+/* section4 */
+#section4{
+  background-color: cadetblue;
+  height: 1000px;
+}
+/* section5 */
+#section5{
+  background-color: brown;
+  height: 1000px;
+}
+/* section6 */
+#section6{
+  background-color: purple;
+  height: 1000px;
+}
+/* section7*/
+#section7{
+  background-color: green;
+  height: 1000px;
 }
 footer{
   background-color: red;
   bottom: 0;
   margin: 0;
 }
+
 /* media queries */
 @media screen and (max-width: 600px) {
   .navbar{
