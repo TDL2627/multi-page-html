@@ -1,5 +1,6 @@
 body{
   width: 100%;
+  text-align: center;
 }
 
 /* The sidebar menu */
@@ -35,16 +36,33 @@ body{
 .navbar{
   display: none !important;
 }
+/* side stuff */
 #sidePic{
   height: 150px;
   border: 5px solid blue;
   border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+#sideName{
+  color: white;
+}
+.sideNavs{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.sidelinks{
+  margin: none;
+  display: inline-flex;
+}
+
+
 /* media queries */
 @media screen and (max-width: 600px) {
   .navbar{
     display: initial !important;
     width: max-content;
+    position: fixed;
   }
   .sidenav{
     display: none !important;
