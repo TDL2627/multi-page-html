@@ -14,7 +14,7 @@
   <div class="topnav" id="myTopnav">
     <a href="#" class="active"><img src="/images/hicon.png" alt="home"></a>
     <a href="projects.html">Projects</a>
-    <a href="about.html">About</a>
+    
     <a href="exp.html">Experience</a>
     <a href="portfolio.html">Testimonials</a>
     <a href="form.html">Contact</a>
@@ -26,34 +26,48 @@ var x = document.getElementById("myTopnav");
 if (x.className === "topnav") {
 x.className += " responsive";
 } else {
-x.className = "topnav";
+x.className = "topnav";<a href="about.html">About</a>
 }
 } 
 
-
-var myVar;
-
-function myFunction1() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-
   </script>
-<div id="loader"></div>
+
   <br>
-  <div style="display:none;" id="myDiv">
+  <div>
 <h1 id="intro">Welcome to:</h1>
 <div class="typewriter">
-  <h1>Ashley Kannemeyer's</h1>
+  <h1>Abdul-Malik Kannemeyer's</h1>
 </div>
 
 <h1 class="folio">PORTFOLIO</h1>
+<a class="more-about" href="#about"> Click here to find out more</a>
+
 <img class="home-pic" src="/images/pp.png" alt="">
 </div>
+<section id="about">
+  <div class="diver1" >
+
+    <u><h3>What software languages do I use?</h3></u>
+    <table border="2">
+      <tr><th>Language's known</th></tr> 
+     
+      <td>HTML5</td>
+      <tr><td>CSS</td></tr>
+      <td>Javascript</td>
+      <tr><td>Python</td></tr>
+      <td>PHP</td>
+    </table>
+    </div>
+    <br>
+    <br>
+    <div style="margin-bottom: 100px;" >
+     <div  id="map">
+       <u><h3>Where this website was made</h3></u>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2675928504354!2d18.49050991541895!3d-33.985659832565254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1633090288356!5m2!1sen!2sza" width="200" height="300" style="border:0;" allowfullscreen=""  loading="lazy"></iframe>
+   </div>
+   </div>
+</section>
+
 <br>
 <br>
 

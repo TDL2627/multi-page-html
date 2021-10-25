@@ -931,5 +931,13 @@ h1{
 }
 .home-pic{
   height: 500px;
-  float: left;
+ 
+}
+.more-about{
+  float: right;
+  background-color:rgb(0, 127, 247);
+  border-radius: 25px;
+}
+.diver1{
+  margin-top: 200px;
 }
