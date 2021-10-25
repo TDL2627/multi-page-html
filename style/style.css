@@ -31,10 +31,11 @@ body{
 /* main content */
 .main {
   margin-left: 250px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  
 }
 .navbar{
   display: none !important;
+  background-color: red !important;
 }
 /* side stuff */
 #sidePic{
@@ -48,21 +49,50 @@ body{
   color: white;
 }
 .sideNavs{
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .sidelinks{
   margin: none;
   display: inline-flex;
 }
+h1{
+  color: white;
+}
 
+/* section1 */
+#section1{
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background:url(/images/WhatsApp\ Image\ 2021-10-25\ at\ 2.04.26\ PM\ \(1\).jpeg);
+  
+  background-repeat: none;
+  background-size: cover;
 
+  margin: 0;
+}
+
+/* section2 */
+#section2{
+ background-color: darkgray;
+}
+
+/* section3 */
+#section3{
+  background-color: darkgoldenrod;
+}
+footer{
+  background-color: red;
+  bottom: 0;
+  margin: 0;
+}
 /* media queries */
 @media screen and (max-width: 600px) {
   .navbar{
     display: initial !important;
     width: max-content;
     position: fixed;
+    background-color: red !important;
   }
   .sidenav{
     display: none !important;
