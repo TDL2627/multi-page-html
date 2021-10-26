@@ -165,9 +165,88 @@ button{
 }
 /* section3 */
 #section3{
-  background-color: darkgoldenrod;
+  background-color: rgb(102, 102, 102);
   height: 1000px;
 }
+/* timeline */
+/* time line */
+.timeline {
+	width:1500px;
+	height: 20px;
+	list-style: none;
+	text-align: justify;
+	margin: 80px auto;
+  /* background-color: whitesmoke !important; */
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(191,128,11,1)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(0, 127, 247) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+}
+.timeline:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  
+}
+
+.timeline li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: rgb(0, 127, 247);
+	text-align: center;
+	line-height: 1.2;
+	position: relative;
+	border-radius: 50%;
+}
+.timeline li:before {
+	display: inline-block;
+	content: attr(data-year);
+	font-size: 26px;
+	position: absolute;
+	left: 50%;
+  color: black;
+  background-color: white;
+	transform: translateX(-50%);
+  border: black 1px solid;
+  
+}
+.timeline li:nth-child(odd):before {
+	top: -40px;
+}
+.timeline li:nth-child(even):before {
+	bottom: -40px;
+}
+.timeline li:after {
+	display: inline-block;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5%;
+   border:rgb(0, 127, 247) 2px solid;
+	content: attr(data-text);
+	font-size: 27px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+ 
+}
+.timeline li:nth-child(odd):after {
+	bottom: 0;
+	margin-bottom: -10px;
+	transform: translate(-50%, 100%);
+}
+.timeline li:nth-child(even):after {
+	top: 0;
+	margin-top: -10px;
+	transform: translate(-50%, -100%);
+}
+#timezone{
+  background-color: rgb(102, 102, 102);
+  height: 500px;
+  overflow: scroll;
+  padding: 200px;
+
+}
+
 /* section4 */
 #section4{
   background-color: cadetblue;
