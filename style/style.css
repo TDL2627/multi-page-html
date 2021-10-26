@@ -53,22 +53,31 @@ body{
 }
 #sideName{
   color: white;
+  text-decoration: underline rgb(46, 255, 88);
 }
 .sideNavs{
   margin-top: 50px;
   margin-bottom: 50px;
-  font-family: 'Anton', sans-serif;
 }
 .sidelinks{
   margin: none;
   display: inline-flex;
-  font-family: 'Anton', sans-serif;
 }
+.sidelinkin:hover{
+  color: rgb(46, 255, 88) !important;
+}
+ /* content */
+
 h1{
   color: rgb(46, 255, 88);
   padding: 50px;
   font-size: 70px !important;
   font-family: 'Anton', sans-serif;
+}
+.sub-head{
+  color: white;
+  font-size: 50px !important;
+  text-decoration: underline rgb(46, 255, 88);
 }
 h2{
   padding: 50px;
