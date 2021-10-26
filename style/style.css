@@ -250,13 +250,25 @@ button{
 
 }
 
-/* section4 */
+/* section4 project */
 #section4{
   background-color: rgb(102, 102, 102);
   height: 1000px;
 }
-
-/* section5 */
+.web-link {
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 15px;
+  font-family: sans-serif;
+  background-color: black;
+}
+.web-link:hover{
+  color: #e9c46a;
+}
+/* section5  */
 #section5{
   background-color: rgb(53, 52, 52);
   height: 1000px;
