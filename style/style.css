@@ -115,10 +115,21 @@ p{
 
 /* section2 */
 #section2{
- background-color: darkgray;
+ background-color: rgb(53, 52, 52);
  height: 1000px;
 }
-
+.subbed-head1{
+  color: rgb(46, 255, 88);
+  display: inline !important;
+}
+.subbed-head{
+  color: white;
+  display: inline !important;
+}
+.sentence1{
+  font-family: sans-serif;
+  color: black;
+}
 /* section3 */
 #section3{
   background-color: darkgoldenrod;
