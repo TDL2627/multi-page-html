@@ -258,7 +258,7 @@ button{
 
 /* section5 */
 #section5{
-  background-color: brown;
+  background-color: rgb(53, 52, 52);
   height: 1000px;
 }
 /* section6 */
@@ -288,13 +288,14 @@ button{
 }
 /* section7*/
 #section7{
-  background-color: green;
+  background-color: rgb(102, 102, 102);
   height: 1000px;
 }
 footer{
-  background-color: red;
+  background-color: rgb(53, 52, 52);
   bottom: 0;
   margin: 0;
+  
 }
 
 /* media queries */
