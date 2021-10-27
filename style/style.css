@@ -29,6 +29,8 @@ body{
 
 .sidenav a:hover {
   color: #f1f1f1;
+  box-shadow: 0 8px 32px 0  #e9c46a;
+  border-radius: 25px;
 }
 
 /* main content */
