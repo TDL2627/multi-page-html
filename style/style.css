@@ -485,10 +485,28 @@ color: white;
     display: none !important;
   }
   .main{
-    margin: 5px;
+    margin:0;
+  }
+  h1{
+    font-size: 50px  !important;
+    padding: 10px;
+  }
+  .sub-head{
+    padding: 50px;
   }
 }
-
+#section2{
+  height: max-content;
+}
+#section6{
+  height: max-content;
+}
+#section5{
+  height: max-content;
+}
+#section7{
+  height: max-content;
+}
 /* animations */
 .heartbeat {
 	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
