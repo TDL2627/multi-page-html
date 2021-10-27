@@ -199,7 +199,7 @@
         <h5 class="equals">From :</h5> <h5 class="equaled">Cape Town</h5>
         <br>
         <br>
-        <button>Download CV</button>
+        <button class="send-but">Download CV</button>
        </div>
 
       </div>
@@ -418,7 +418,7 @@
             <img src="/images/doob.png" style="height: 500px; width:200px" class="d-block w-100" alt="...">
          <h1 class="subbed-head1">SINGLE PAGE SITE</h1>
          <p>A mock of single page using HTML and CSS</p>
-         <button class="web-link"><a target="_blank" class="web-link1" href="https://github.com/TDL2627/single-page>GITHUB LINK</a></button>  <button class="web-link"><a target="_blank" class="web-link1" href="https://tdl2627-single-page.netlify.app/">NETLIFY LINK</a></button> 
+         <button class="web-link"><a target="_blank" class="web-link1" href="https://github.com/TDL2627/single-page">GITHUB LINK</a></button>  <button class="web-link"><a target="_blank" class="web-link1" href="https://tdl2627-single-page.netlify.app/">NETLIFY LINK</a></button> 
           </div>
           <div class="carousel-item">
             <img src="/images/single.png" style="height: 500px; width:200px" class="d-block w-100" alt="...">
@@ -549,19 +549,33 @@
         <div class="row">
           <div class="col-lg-8" >
              <!-- the form -->
-  <form action="https://formspree.io/f/mleavgwr" method="POST" style="text-align: start;">
-    <h1>Contact me:</h1>
+  <form action="https://formspree.io/f/mleavgwr" method="POST" >
+    <h3 style="text-align: start;margin-left: 20px; color: #e9c46a;">Contact me:</h3>
     <br>
+    <div class="col-lg-8" style="display: flex;"> <input   name="fname" style="width:100%; margin-left: 2px; margin:20px; border-radius: 20px; border: none; height:40px; padding: 10px; " type="text" placeholder="Enter your  name" required> <input  name="email" style="width:100%; margin:20px; border-radius: 20px; border: none; height:40px; padding: 10px; " type="email" placeholder="Enter your  email" required> </div>
+    
+    <div class="col-lg-8"> <textarea name="messages" id="" cols="30" rows="10" placeholder="Type your message"></textarea> </div>
+   <div class="col-lg-8">    <button class="send-but" type="submit">Send</button>
+   </div>
   </div>
-    <div class="col-lg-4"><h2 class="sub-heading">Address</h2></div>
- <div class="col-lg-4"> <input   name="fname" style="width:100%; margin:10px; border-radius: 20px; border: none; height:40px" type="text" placeholder="Enter your  name" required></div>
- <div class="col-lg-4"> <input  name="email" style="width:100%; margin:10px; border-radius: 20px; border: none; height:40px" type="email" placeholder="Enter your  email" required> </div>
- <div class="col-lg-8"> <textarea name="messages" id="" cols="30" rows="10" placeholder="Type your message"></textarea> </div>
-    <br>
-    <button class="glow-on-hover" style="color: green; border: green 1px solid;" type="submit">Submit</button>
-    <a id="wapp" target="_blank" href="https://wa.me/27660400809" target="_blank"><img
-        src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-whatsapp-social-media-justicon-flat-justicon.png" /></a>
-<a id="gapp" target="_blank" href="https://github.com/TDL2627"><img src="https://img.icons8.com/material-outlined/24/000000/github.png"/></a>
+    <div class="col-lg-4"><h3 style="color: #e9c46a;">Address</h3>
+      <p class="contact-info">42 Bongo Cresent</p> 
+      <p class="contact-info">Silvertown</p>
+      <p class="contact-info">Athlone</p>
+      <p class="contact-info">Cape Town</p>
+      <p class="contact-info">7764</p>
+      <br>
+      <p class="contact-info"><img src="https://img.icons8.com/material-outlined/24/000000/phone.png"/> 066 040 0809</p>
+      <p class="contact-info"><img src="https://img.icons8.com/ios-glyphs/30/000000/send-mass-email.png"/>ashleykannemyer2@gmail.com</p>
+     <h4 style="color: #e9c46a;">FOLLOW ME</h4>
+     <a id="wapp" target="_blank" href="https://wa.me/27660400809" target="_blank"><img src="https://img.icons8.com/material-outlined/48/000000/whatsapp--v1.png"/></a>
+      <a id="gapp" target="_blank" href="https://github.com/TDL2627"><img src="https://img.icons8.com/material-outlined/48/000000/github.png"/></a>
+      <a id="lapp"href="https://www.linkedin.com/in/ashley-kannemeyer-01b37121b/"><img src="https://img.icons8.com/material-outlined/48/000000/linkedin--v1.png"/></a>
+    </div>
+
+
+    
+
 
   </form>
           </div>
@@ -573,8 +587,8 @@
     <br>
 
     <footer>
-      <p>Created by TDL2627</p>
-      <p>AKA Ashley Kannemeyer</p>
+      <p class="contact-info">Created by TDL2627</p>
+      <p class="contact-info">AKA Ashley Kannemeyer</p>
     </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
