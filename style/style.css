@@ -91,12 +91,19 @@ p{
   color: white;
 }
 #uppity{
+
+    overflow: hidden;
+    visibility: hidden;
+    max-height: 0px;
+
+
   position: fixed;
   right:0;
   bottom: 0;
- 
+  animation: visibility 0ms 4.5s both;
+  -webkit-animation: visibility 0ms 4.5s both;
   background: rgba( 0, 0, 0, 0.5 );
-  box-shadow: 0 8px 32px 0 ;
+
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
@@ -122,6 +129,7 @@ p{
   background-repeat: none;
   background-size: cover;
   margin: 0;
+
 }
 #down{
   margin-top: 50px;
@@ -300,7 +308,7 @@ button{
   margin: 15px;
   font-family: sans-serif;
   background: rgba( 231, 231, 231, 0.5 );
-box-shadow: 0 8px 32px 0 #e9c46a;
+
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 25px;
@@ -308,6 +316,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .web-link:hover{
   color: #e9c46a;
+  box-shadow: 0 8px 32px 0 #e9c46a;
 }
 .carousel-button{
   border: 2px solid black;
@@ -328,7 +337,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /* profiles */
 .dropbtn {
   background: rgba( 11, 11, 11, 0.55 );
-  box-shadow: 0 8px 32px 0 #e9c46a;
+  
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
@@ -350,7 +359,7 @@ color: black;
 }
 .dropbtn:focus{
   background: rgba( 255, 255, 255, 0.55 ) !important;
-box-shadow: 0 8px 32px 0 #e9c46a;
+box-shadow: 0 8px 32px 0 ;
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
@@ -368,7 +377,7 @@ color: black;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px #e9c46a;
+  box-shadow: 0px 8px 16px 0px ;
   z-index: 1;
   border-radius: 25px;
   animation-name: slide-in-top;
@@ -603,5 +612,20 @@ color: white;
     -webkit-transform: translateY(0);
             transform: translateY(0);
     opacity: 1;
+  }
+}
+
+
+@-webkit-keyframes visibility {
+  100% {
+          max-height: inherit;
+          visibility: visible;
+  }
+}
+
+@keyframes visibility {
+  100% {
+          max-height: inherit;
+          visibility: visible;
   }
 }
