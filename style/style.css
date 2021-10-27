@@ -48,8 +48,8 @@ body{
   height: 150px;
   border: 5px solid #e9c46a;
   border-radius: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #sideName{
   color: white;
@@ -57,8 +57,8 @@ body{
  
 }
 .sideNavs{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .sidelinks{
   margin: none;
@@ -96,7 +96,7 @@ p{
   margin:27px;
   text-decoration: none;
 }
-/* section1 */
+/* section1 landing  */
 #section1{
  padding-top: 50px;
   background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/hacking-2903156_1920.jpg);
@@ -114,7 +114,7 @@ p{
   animation-duration: 1.5s;
 }
 
-/* section2 */
+/* section2 about */
 #section2{
  background-color: rgb(53, 52, 52);
  height: 500px;
@@ -163,7 +163,7 @@ button{
 .line1{
   color: white;
 }
-/* section3 */
+/* section3  experince*/
 #section3{
   background-color: rgb(102, 102, 102);
   height: 700px;
@@ -268,10 +268,61 @@ button{
 .web-link:hover{
   color: #e9c46a;
 }
-/* section5  */
+.carousel-button{
+  border: 2px solid red;
+  padding: 15px;
+  
+  background-color: red;
+  border-radius:50% ;
+  animation-name: heartbeat;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+ 
+}
+/* section5  TESTIMONIALS */
 #section5{
   background-color: rgb(53, 52, 52);
   height: 1000px;
+}
+/* profiles */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.profiles {
+  position: relative;
+  margin-bottom: 250px;
+  display: inline-block;
+}
+
+.profiles-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.profiles-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.profiles-content a:hover {background-color: #ddd;}
+
+.profiles:hover .profiles-content {display: block;}
+
+.profiles:hover .dropbtn {background-color: #3e8e41;}
+.people-pic{
+  height: 150px;
+ 
 }
 /* section6 */
 /* skills */
@@ -298,7 +349,10 @@ button{
   font-family: sans-serif;
   display: inline;
 }
-/* section7*/
+#angular{
+  height: 50px;
+}
+/* section7 contact*/
 #section7{
   background-color: rgb(102, 102, 102);
   height: 1000px;
