@@ -79,6 +79,9 @@ h1{
   font-size: 70px !important;
   font-family: 'Anton', sans-serif;
 }
+.p-details{
+  font-family: sans-serif;
+}
 .sub-head{
   color: white;
   font-size: 50px !important;
@@ -494,7 +497,11 @@ color: white;
   .sub-head{
     padding: 50px;
   }
+  body{
+    overflow-x: hidden;
+  }
 }
+
 #section2{
   height: max-content;
 }
