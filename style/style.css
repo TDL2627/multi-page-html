@@ -32,6 +32,10 @@ body{
   box-shadow: 0 8px 32px 0  #e9c46a;
   border-radius: 25px;
 }
+.navbar-toggler-icon{
+ background-color: #818181;
+ border-radius: 21px;
+}
 
 /* main content */
 .main {
@@ -309,23 +313,25 @@ button{
 .web-link1{
   text-decoration: none;
   font-family: sans-serif;
-  color: white;
+  color: black ;
+  
 }
 .web-link1:hover{
   color: white;
 }
 .web-link:hover{
   background-color: black;
+  color: white;
 }
 .web-link {
   text-decoration: none;
-  color: black;
+  color: white;
  
   padding: 10px;
   
   margin: 15px;
   font-family: sans-serif;
-  background: rgba( 231, 231, 231, 0.5 );
+  background:  #e9c46a;;
 
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
@@ -354,13 +360,43 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 /* profiles */
 .accordion-item{
-  margin:10px;
+  width: 300px;
+  margin:27px;
+  border-radius: 25px !important;
   background-color: #818181 !important;
+  
+}
+.accordion-button{
+  color:black !important;
+  box-shadow: none !important;
+  background-color: #e9c46a !important;
+}
+.accordion-button:focus{
+  color:black !important;
+  box-shadow: none !important;
+  background-color: white !important;
+}
+.accordion-button:active{
+  color:black !important;
+  box-shadow: none !important;
+  background-color: white;
+}
+.accordion-button::after{
+  color: black !important;
+}
+.accordion-button::before{
+  border: 2px solid gray !important;
+}
+.collapsed{
+  border: 2px solid red;
 }
 
 .people-pic{
+  border-radius: 25px;
   height: 150px;
   width: 200px;
+  border: 2px solid black;
+  margin-bottom: 25px;
  
 }
 /* section6 */
@@ -399,11 +435,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 footer{
   background-color: rgb(53, 52, 52);
   bottom: 0;
-  margin: 0;
   height: 100px;
   padding: 20px;
   font-family: sans-serif;
-  margin-left: 250px;
+  
   
 }
 textarea{
@@ -414,6 +449,7 @@ textarea{
 }
 .contact-info{
   font-family: sans-serif;
+  margin-left: 300px;
 }
 .send-but{
   margin: 20px;
@@ -451,7 +487,21 @@ color: white;
   .sub-head{
     padding: 50px;
   }
- 
+  .accordion-item{
+    width: 300px;
+  
+    margin-left: 50px;
+  }
+ .footer{
+   width: 100%;
+  
+ }
+ .contact-info{
+   margin: 0;
+ }
+ .sidelinker{
+   margin-right: 10px;
+ }
 }
 
 #section2{
