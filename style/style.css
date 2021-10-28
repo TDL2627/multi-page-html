@@ -489,6 +489,7 @@ color: white;
   }
   .main{
     margin:0;
+    overflow-x: hidden;
   }
   h1{
     font-size: 50px  !important;
@@ -497,9 +498,7 @@ color: white;
   .sub-head{
     padding: 50px;
   }
-  body{
-    overflow-x: hidden;
-  }
+ 
 }
 
 #section2{
