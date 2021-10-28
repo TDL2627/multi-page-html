@@ -41,6 +41,7 @@ body{
 .main {
   margin-left: 250px; /* Same as the width of the sidebar */
   margin-bottom: 0;
+  overflow-x: hidden;
   
 }
 #logo{
@@ -216,7 +217,7 @@ button{
   
 }
 .line1{
-  color: white;
+  color: white !important;
 }
 /* section3  experince*/
 #section3{
@@ -451,6 +452,10 @@ textarea{
   font-family: sans-serif;
   margin-left: 300px;
 }
+.contact-info1{
+  font-family: sans-serif;
+  
+}
 .send-but{
   margin: 20px;
   color: #111;
@@ -490,7 +495,7 @@ color: white;
   .accordion-item{
     width: 300px;
   
-    margin-left: 50px;
+    margin-left: 20px;
   }
  .footer{
    width: 100%;
