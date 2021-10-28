@@ -39,6 +39,11 @@ body{
   margin-bottom: 0;
   
 }
+#logo{
+  height: 45px;
+  background-color: white;
+  border-radius: 25px;
+}
 .navbar{
   display: none !important;
   background-color: red !important;
