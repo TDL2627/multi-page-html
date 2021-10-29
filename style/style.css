@@ -45,12 +45,8 @@ body{
   overflow-x: hidden;
   
 }
-.intro{
-  animation-name: scale-in-center;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-.intro1{
+
+.into1{
   color: #e9c46a;
   padding: 20px !important;
   font-size: 70px !important;
