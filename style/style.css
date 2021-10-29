@@ -413,6 +413,10 @@ backdrop-filter: blur( 4px )!important;
 .collapsed{
   border: 2px solid red;
 }
+.accordion-body{
+  color: white;
+  font-family: sans-serif;
+}
 
 .people-pic{
   border-radius: 25px;
@@ -521,6 +525,7 @@ color: white;
   }
  .footer{
    width: 100%;
+   height: max-content;
   
  }
  .contact-info{
