@@ -50,6 +50,12 @@ body{
   animation-duration: 1s;
   animation-iteration-count: 1;
 }
+.intro1{
+  color: #e9c46a;
+  padding: 20px !important;
+  font-size: 70px !important;
+  font-family: 'Anton', sans-serif;
+}
 
 #logo{
   height: 45px;
@@ -101,7 +107,7 @@ body{
 
 h1{
   color: #e9c46a;
-  padding: 20px !important;
+  padding: 50px !important;
   font-size: 70px !important;
   font-family: 'Anton', sans-serif;
 }
