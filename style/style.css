@@ -29,7 +29,7 @@ body{
 
 .sidenav a:hover {
   color: #f1f1f1;
-  box-shadow: 0 8px 32px 0  #e9c46a;
+ 
   border-radius: 25px;
 }
 .navbar-toggler-icon{
@@ -276,10 +276,14 @@ button{
 .timeline li:after {
 	display: inline-block;
   color: white;
-  background-color: black;
+  background: rgba( 0, 0, 0, 0.6 );
+box-shadow: 0 8px 32px 0 #e9c46a;
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 5%;
   padding: 20px;
-  border-radius: 5%;
-   border:#e9c46a 2px solid;
+
+   
 	content: attr(data-text);
 	font-size: 27px;
 	position: absolute;
@@ -364,7 +368,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   width: 300px;
   margin:27px;
   border-radius: 25px !important;
-  background-color: #818181 !important;
+  background: rgba( 141, 137, 137, 0.7 ) !important;
+
+backdrop-filter: blur( 4px )!important;
+-webkit-backdrop-filter: blur( 4px )!important;
+
   
 }
 .accordion-button{
