@@ -49,6 +49,7 @@ body{
   animation-duration: 1s;
   animation-iteration-count: 1;
 }
+
 #logo{
   height: 45px;
   background-color: white;
@@ -99,7 +100,7 @@ body{
 
 h1{
   color: #e9c46a;
-  padding: 50px;
+  padding: 20px !important;
   font-size: 70px !important;
   font-family: 'Anton', sans-serif;
 }
