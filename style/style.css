@@ -56,6 +56,9 @@ body{
 .nav-link{
   color: white !important;
 }
+.nav-link:active{
+  color: #e9c46a !important;
+}
 /* side stuff */
 #sidePic{
   height: 150px;
