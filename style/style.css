@@ -37,6 +37,15 @@ body{
  background-color: #818181;
  border-radius: 21px;
 }
+a:active{
+  color: #e9c46a !important; 
+  text-decoration: underline #e9c46a !important;
+}
+a:focus{
+  color: #e9c46a !important;
+ text-decoration: underline  #e9c46a !important;
+}
+
 
 /* main content */
 .main {
