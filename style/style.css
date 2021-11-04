@@ -165,7 +165,7 @@ p{
 /* section1 landing  */
 #section1{
  padding-top: 50px;
-  background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/bg-me.jpeg);
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/people/bg-me.jpeg);
   height: 900px;
   background-repeat: none;
   background-size: cover;
