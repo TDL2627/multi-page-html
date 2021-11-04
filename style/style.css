@@ -336,6 +336,10 @@ border-radius: 5%;
   background-color: rgb(102, 102, 102);
   height: 1000px;
 }
+/* rating */
+.checked {
+  color: limegreen;
+}
 .web-link1{
   text-decoration: none;
   font-family: sans-serif;
@@ -540,6 +544,9 @@ color: white;
  }
  .sidelinker{
    margin-right: 10px;
+ }
+ .into1{
+   font-size: 50px !important;
  }
 }
 
