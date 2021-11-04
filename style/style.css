@@ -55,7 +55,7 @@ body{
 
 #logo{
   height: 45px;
-  background-color: white;
+  background-color: rgb(102, 102, 102);
   border-radius: 25px;
 }
 .navbar{
@@ -100,6 +100,10 @@ body{
   animation-iteration-count: 1;
 }
  /* content */
+ .logo{
+   height: 100px;
+   margin-left: 250px;
+ }
 
 h1{
   color: #e9c46a;
@@ -473,7 +477,7 @@ backdrop-filter: blur( 4px )!important;
 footer{
   background-color: rgb(53, 52, 52);
   bottom: 0;
-  height: 100px;
+  height: max-content;
   padding: 20px;
   font-family: sans-serif;
   
@@ -548,6 +552,10 @@ color: white;
  .into1{
    font-size: 50px !important;
  }
+ .logo{
+  height: 100px;
+  margin-left: 0px !important;
+}
 }
 
 #section2{
