@@ -67,6 +67,9 @@ a:focus{
   background-color: rgb(102, 102, 102);
   border-radius: 25px;
 }
+.firebase{
+  height: 50px;
+}
 .navbar{
   display: none !important;
   background-color: red !important;
