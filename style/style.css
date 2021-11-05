@@ -273,6 +273,7 @@ button{
 	list-style: none;
 	text-align: justify;
 	margin: 80px auto;
+ 
   /* background-color: whitesmoke !important; */
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(191,128,11,1)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(0, 0, 0) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
@@ -351,7 +352,7 @@ border-radius: 5%;
   overflow: scroll;
   padding: 150px;
   padding-right: 250px;
-
+  overflow-y: hidden;
 }
 
 /* section4 project */
