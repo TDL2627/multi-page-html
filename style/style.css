@@ -115,6 +115,7 @@ a:focus{
  .logo{
    height: 100px;
    margin-left: 250px;
+   display: none;
  }
 
 h1{
@@ -567,6 +568,7 @@ color: white;
  .logo{
   height: 100px;
   margin-left: 0px !important;
+  display: initial;
 }
 }
 
