@@ -213,33 +213,39 @@ p{
 .subbed-head1{
   color: #e9c46a;
   display: inline !important;
+  text-align: start !important;
   
 }
 .subbed-head{
   color: white;
   display: inline !important;
+  text-align: start !important;
 }
 .sentence1{
   font-family: sans-serif;
   color: white;
+  text-align: start;
 }
 .equals{
   color: white;
   font-weight:bolder;
   font-family: sans-serif !important;
   display: inline;
+  text-align: start;
 }
 .equaled{
   color: white;
   font-family: sans-serif !important;
   display: inline !important;
   font-size: 20px;
+  text-align: start;
 }
 .equaled1{
   color: #e9c46a;
   font-family: sans-serif !important;
   display: inline !important;
   font-size: 20px;
+  text-align: start;
 }
 button{
   border-radius: 25px !important;
