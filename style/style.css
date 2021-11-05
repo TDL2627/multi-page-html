@@ -54,7 +54,9 @@ a:focus{
   overflow-x: hidden;
   
 }
-
+.intro{
+ margin-top:10%;
+}
 .into1{
   color: #e9c46a;
   padding: 20px !important;
@@ -183,7 +185,7 @@ p{
 #section1{
  padding-top: 50px;
   background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/people/bg-me.jpeg);
-  height: 900px;
+  height: 100vh;
   background-repeat: none;
   background-size: cover;
   margin: 0;
