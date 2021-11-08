@@ -116,8 +116,7 @@ a:focus{
  /* content */
  .logo{
    height: 100px;
-   margin-left: 250px;
-   display: none;
+   margin-left: 300px;
  }
 
 h1{
@@ -395,7 +394,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   border: 2px solid black;
   padding: 15px;
   
-  background-color: white;
+  background-color: #e9c46a;
   border-radius:50% ;
   animation-name: heartbeat;
   animation-iteration-count: infinite;
