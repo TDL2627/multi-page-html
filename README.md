@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-This is my personal portfolio for employement and to showcase my work
+This is my personal portfolio for employment and to showcase my work
 
 ## Installation
 
