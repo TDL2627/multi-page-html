@@ -3,7 +3,9 @@ body{
   background-color: rgb(53, 52, 52);
   text-align: center;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 *{
   font-family: 'Anton', sans-serif;
 }
@@ -63,7 +65,35 @@ a:focus{
   font-size: 70px !important;
   font-family: 'Anton', sans-serif;
 }
+.scrollToTopBtn {
+  
+  cursor: pointer;
+  border-radius: 50%;
+  width: 90px;
+  background: #e9c46a;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition: all 0.5s ease;
+}
 
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
 #logo{
   height: 45px;
   
@@ -160,37 +190,8 @@ h2{
 p{
   color: white;
 }
-#uppity{
-
-    overflow: hidden;
-    visibility: hidden;
-    max-height: 0px;
 
 
-  position: fixed;
-  right:0;
-  bottom: 0;
-  animation: visibility 0ms 4.5s both;
-  -webkit-animation: visibility 0ms 4.5s both;
-  background: rgba( 0, 0, 0, 0.5 );
-
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  z-index: 27;
-  margin:50px;
-  padding: 20px;
-  text-decoration: none;
-}
-#uppity:hover{
-  background: rgba( 0, 0, 0, 0.5 );
-  box-shadow: 0 8px 32px 0  #e9c46a;
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-radius: 50%;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
 /* section1 landing  */
 #section1{
  padding-top: 50px;
