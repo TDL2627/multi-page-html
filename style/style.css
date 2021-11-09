@@ -9,7 +9,7 @@ body{
 }
 /* The sidebar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
   width: 250px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
@@ -96,8 +96,8 @@ a:focus{
 }
 #sideName{
   color: white;
-  
- 
+  text-decoration: #e9c46a underline;
+  margin-top: 20px;
 }
 .sideNavs{
   margin-top: 20px;
@@ -151,6 +151,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .downloadcv:hover{
   color: white;
   box-shadow: 0 8px 32px 0 #e9c46a;
+  background-color: black;
 }
 h2{
   padding: 50px;
@@ -409,6 +410,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .web-link:hover{
   color: white;
   box-shadow: 0 8px 32px 0 #e9c46a;
+  background-color: black;
 }
 .carousel-button{
   border: 2px solid black;
