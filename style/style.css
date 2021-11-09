@@ -608,6 +608,10 @@ color: white;
  margin: 2px !important;
  
 }
+.carousel-button{
+  margin-bottom: 100px;
+  height: 70px;
+}
 }
 
 #section2{
