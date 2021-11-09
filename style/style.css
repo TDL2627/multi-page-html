@@ -378,7 +378,7 @@ border-radius: 5%;
   box-shadow: 0 8px 32px 0 #e9c46a;
 }
 #scroller{
-  color: white;
+  color: black;
   animation-name: heartbeat;
   animation-duration:1.5s;
   animation-iteration-count: infinite;
@@ -483,6 +483,10 @@ backdrop-filter: blur( 4px )!important;
   margin-top: 50px;
  
 }
+.testi{
+  margin-left: 50px;
+}
+
 /* section6 */
 /* skills */
 #section6{
@@ -515,6 +519,9 @@ backdrop-filter: blur( 4px )!important;
 #section7{
   background-color: rgb(102, 102, 102);
   height: 700px;
+}
+.contact-head{
+  text-align: start;margin-left: 200px; color: #e9c46a;
 }
 footer{
   background-color: rgb(53, 52, 52);
@@ -588,6 +595,9 @@ color: white;
  .contact-info{
    margin: 0;
  }
+ .contact-head{
+   margin-left:  100px !important;
+ }
  .sidelinker{
    margin-right: 10px;
  }
@@ -631,12 +641,12 @@ color: white;
   width: 75vw;
   
 }
-.people-pic{
-  z-index: 500;
-  
-
+.mobile-sub{
+  font-size:40px !important ;
 }
-
+.areatxt{
+  margin-right: 20px;
+}
 }
 
 #section2{
