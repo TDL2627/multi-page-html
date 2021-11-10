@@ -39,6 +39,19 @@ html {
  background-color: #818181;
  border-radius: 21px;
 }
+.navbar-toggler{
+  border-color: #e9c46a !important;
+}
+.navbar-light .navbar-toggler {
+   color: white !important;
+  border-color: white !important;
+}
+.navbar-toggler:focus{
+  border: none !important;
+}
+.collapsed{
+  border: none !important;
+}
 a:active{
   color: #e9c46a !important; 
   text-decoration: underline #e9c46a !important;
