@@ -26,7 +26,7 @@
     <h5 id="sideName">Ashley Kannemeyer</h5>
     <div class="sideNavs">
       <ul class="nav nav-sidebar">
-        <li class="active"><a class="sidelinkin active" style="background-color: #e9c46a;" href="#section1">Home</a></li>
+        <li class="active"><a class="sidelinkin1 active" style="background-color: #e9c46a;" href="#section1">Home</a></li>
         <li><a class="sidelinkin"  href="#section2">About</a></li>
         <li><a class="sidelinkin" href="#section3">Experience</a></li>
         <li><a class="sidelinkin" href="#section6">Skills</a></li>
@@ -716,7 +716,7 @@ var rootElement = document.documentElement;
 function handleScroll() {
   // Do something on scroll
   var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-  if (rootElement.scrollTop / scrollTotal > 0.1) {
+  if (rootElement.scrollTop / scrollTotal > 0.08) {
     // Show button
     scrollToTopBtn.classList.add("showBtn");
   } else {
