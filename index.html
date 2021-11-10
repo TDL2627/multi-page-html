@@ -13,6 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script> 
   <title> Ashley Kannemeyer's basic multi-page website </title>
 </head>
 
@@ -22,14 +25,17 @@
   <div class="sidenav" >
     <img id="sidePic" src="/images/people/me.JPG" alt="myPic">
     <h5 id="sideName">Ashley Kannemeyer</h5>
-    <div class="sideNavs">
-      <a class="sidelinkin active" href="#section1">Home</a>
-      <a class="sidelinkin"  href="#section2">About</a>
-      <a class="sidelinkin" href="#section3">Experience</a>
-      <a class="sidelinkin" href="#section6">Skills</a>
-      <a class="sidelinkin" href="#section4">Projects</a>
-      <a class="sidelinkin" href="#section5">Testimonials</a>
-      <a class="sidelinkin" href="#section7">Contact</a>
+    <div class="sidebar-nav-links">
+      <ul class="nav nav-sidebar">
+        <li class="active"><a class="sidelinkin active" href="#section1">Home</a></li>
+        <li><a class="sidelinkin"  href="#section2">About</a></li>
+        <li><a class="sidelinkin" href="#section3">Experience</a></li>
+        <li><a class="sidelinkin" href="#section6">Skills</a></li>
+        <li><a class="sidelinkin" href="#section4">Projects</a></li>
+        <li><a class="sidelinkin" href="#section5">Testimonials</a></li>
+       <li><a class="sidelinkin" href="#section7">Contact</a></li>
+      </ul>
+     
     </div>
     <div class="sidelinks">
       <a target="_blank" class="sidelinker" href="https://github.com/TDL2627/"><svg xmlns="http://www.w3.org/2000/svg"
@@ -73,6 +79,7 @@
           </g>
         </svg></a>
     </div>
+    <img src="/images/icons/logo.png" id="logo" alt="logo">
     
   </div>
 
@@ -661,7 +668,9 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
             </form>
           </div>
           <div class="col-lg-4" data-aos="fade-left" >
+            <br>
             <h3 style="color: #e9c46a;">Address</h3>
+            <br>
             <p class="contact-info1">42 Bongo Cresent</p>
             <p class="contact-info1">Silvertown</p>
             <p class="contact-info1">Athlone</p>
@@ -671,6 +680,7 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
             <p class="contact-info1"><img src="https://img.icons8.com/material-outlined/24/000000/phone.png" /> 066 040
               0809</p>
             <p class="contact-info1"><img src="https://img.icons8.com/ios-filled/30/000000/email-open.png"/>ashleykannemyer2@gmail.com</p>
+            <br>
             <h4 style="color: #e9c46a;">FOLLOW ME</h4>
             <a id="wapp" target="_blank" href="https://wa.me/27660400809"><img
                 src="https://img.icons8.com/material-outlined/48/000000/whatsapp--v1.png" /></a>
@@ -725,7 +735,11 @@ function scrollToTop() {
 }
 scrollToTopBtn.addEventListener("click", scrollToTop);
 document.addEventListener("scroll", handleScroll);
-
+// nav
+$(".nav a").on("click", function() {
+  $(".nav").find(".active").removeClass("active");
+  $(this).parent().addClass("active");
+});
   </script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

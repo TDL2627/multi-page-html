@@ -52,14 +52,28 @@ html {
 .collapsed{
   border: none !important;
 }
-a.active{
+ul{
+  list-style: none;
+}
+.nav li {
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  width: 100%;
+}
+.nav li:hover {
+  border-bottom: 3px solid #eee;
+}
+.nav li.active {
+  border-bottom: 3px solid #338ecf;
+  background: #eee
+}
+/* .active{
   color: #e9c46a !important; 
  text-decoration: underline #e9c46a;
 }
 a:focus{
   color: #e9c46a !important;
  text-decoration: underline  #e9c46a !important;
-}
+} */
 
 
 /* main content */
@@ -108,7 +122,7 @@ a:focus{
   transform: translateY(0);
 }
 #logo{
-  height: 45px;
+  height: 100px;
   
   border-radius: 25px;
 }
@@ -139,8 +153,9 @@ a:focus{
 }
 #sideName{
   color: white;
-  text-decoration: #e9c46a underline;
+ text-decoration: #e9c46a underline;
   margin-top: 20px;
+  font-size: 20px;
 }
 .sideNavs{
   margin-top: 20px;
@@ -543,8 +558,6 @@ footer{
   height: max-content;
   padding: 20px;
   font-family: sans-serif;
-  
-  
 }
 textarea{
   width: 100%;
