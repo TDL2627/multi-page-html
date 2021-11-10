@@ -258,6 +258,12 @@ p{
   text-align: start !important;
   
 }
+.subbed-head2{
+  color: #e9c46a;
+  display: inline !important;
+  text-align: start !important;
+  
+}
 .subbed-head{
   color: white;
   display: inline !important;
@@ -648,6 +654,7 @@ color: white;
   padding:20px !important;
   
 }
+
 .web-link{
   font-size: 10px;
  margin: 2px !important;
