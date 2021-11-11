@@ -620,6 +620,24 @@ border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: white;
 }
+.reset-but{
+  padding: 14px;
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  font-family: sans-serif;
+  background-color: #e9c46a;
+  font-weight: bold;
+}
+.reset-but:hover{
+  background: rgba( 11, 11, 11, 0.75 );
+box-shadow: 0 8px 32px 0  #e9c46a;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 25px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: white;
+}
 /* media queries */
 @media screen and (max-width: 600px) {
   .navbar{
