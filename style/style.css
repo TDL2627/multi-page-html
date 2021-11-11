@@ -184,9 +184,10 @@ ul{
    color: black;
    width: 250px;
    /* padding:20px; */
-   animation: hideAnimation 0s ease-in 10s;
+   animation: hideAnimation 0s ease-in 5s;
   animation-fill-mode: forwards;
   margin-left: 45%;
+  margin-top: 50px;
  }
  .mess{
    color: black;
@@ -257,6 +258,9 @@ p{
   animation-name: heartbeat;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
+  visibility: hidden;
+  animation: visibility 0ms 5s both;
+  -webkit-animation: visibility 0ms 5s both;
 }
 #down:hover{
   background: white;
