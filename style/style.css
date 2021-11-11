@@ -177,6 +177,21 @@ ul{
   text-decoration: none;
 }
  /* content */
+ .disamess{
+   border-radius: 25px;
+   border: #e9c46a solid 2px;
+   background-color: white;
+   color: black;
+   width: 250px;
+   padding:20px;
+   animation: hideAnimation 0s ease-in 10s;
+  animation-fill-mode: forwards;
+  margin-left: 50px;
+ }
+ .mess{
+   color: black;
+   text-align: start;
+ }
  .logo{
    height: 100px;
    margin-left: 300px;
@@ -1063,5 +1078,12 @@ color: white;
   100% {
     -webkit-transform: translate(0);
             transform: translate(0);
+  }
+}
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
   }
 }
