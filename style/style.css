@@ -533,6 +533,8 @@ backdrop-filter: blur( 4px )!important;
 .accordion-body{
   color: white;
   font-family: sans-serif;
+  height: 150px;
+  overflow-y: scroll;
 }
 
 .people-pic{
