@@ -24,8 +24,8 @@
   <div class="sidenav">
     <img id="sidePic" src="/images/people/me.JPG" alt="myPic">
     <h5 id="sideName">Ashley Kannemeyer</h5>
-    <div class="sideNavs">
-      <ul class="nav nav-sidebar">
+    
+      <!-- <ul class="nav nav-sidebar">
         <li class="active"><a class="sidelinkin1" style="background-color: #e9c46a; color: #000000;" href="#section1">Home</a>
         </li>
         <li><a class="sidelinkin" href="#section2">About</a></li>
@@ -34,9 +34,23 @@
         <li><a class="sidelinkin" href="#section4">Projects</a></li>
         <li><a class="sidelinkin" href="#section5">Testimonials</a></li>
         <li><a class="sidelinkin" href="#section7">Contact</a></li>
-      </ul>
-
-    </div>
+      </ul> -->
+      <nav>
+        <div class="container"> 
+          <div class="slink">
+            <ul>
+                <li class="home active slink1"><a href="#home">Home</a></li>
+                <li class="about slink1"><a href="#about">About</a></li>
+                <li class="exp slink1"><a href="#exp">Experience</a></li>
+                <li class="skills slink1"><a href="#skills">Skills</a></li>
+                <li class="projects slink1"><a href="#projects">Projects</a></li>
+                <li class="testimonial slink1"><a href="#testimonial">Testimonials</a></li>
+                <li class="contact slink1"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    
     <div class="sidelinks">
       <a target="_blank" class="sidelinker" href="https://github.com/TDL2627/"><svg xmlns="http://www.w3.org/2000/svg"
           x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
@@ -109,14 +123,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav nav-sidebar">
-          <li class="active"><a class="sidelinkin1 active" style=" color: white !important; background-color: #e9c46a; border-radius: 25px; padding-left: 25px; padding-right: 25px;" href="#section1">Home</a>
+          <li class="active"><a class="sidelinkin1 active" style=" color: white !important; background-color: #e9c46a; border-radius: 25px; padding-left: 25px; padding-right: 25px;" href="#home">Home</a>
           </li>
-          <li><a class="sidelinkin" href="#section2">About</a></li>
-          <li><a class="sidelinkin" href="#section3">Experience</a></li>
-          <li><a class="sidelinkin" href="#section6">Skills</a></li>
-          <li><a class="sidelinkin" href="#section4">Projects</a></li>
-          <li><a class="sidelinkin" href="#section5">Testimonials</a></li>
-          <li><a class="sidelinkin" href="#section7">Contact</a></li>
+          <li><a class="sidelinkin" href="#about">About</a></li>
+          <li><a class="sidelinkin" href="#exp">Experience</a></li>
+          <li><a class="sidelinkin" href="#skills">Skills</a></li>
+          <li><a class="sidelinkin" href="#projects">Projects</a></li>
+          <li><a class="sidelinkin" href="#testimonial">Testimonials</a></li>
+          <li><a class="sidelinkin" href="#contact">Contact</a></li>
         </ul>
 
       </div>
@@ -128,7 +142,7 @@
 
     <!-- up button -->
 
-    <section id="section1">
+    <section id="home">
       <div class="intro">
         <h1 class="into1">Ashley Kannemeyer's</h1>
         <h1 class="into1">PORTFOLIO</h1>
@@ -137,9 +151,9 @@
          
          <div class="loader"></div>
        </div>
-      <a href="#section2"><img id="down" src="https://img.icons8.com/material-outlined/96/000000/down--v1.png" /></a>
+      <a href="#about"><img id="down" src="https://img.icons8.com/material-outlined/96/000000/down--v1.png" /></a>
     </section>
-    <section id="section2">
+    <section id="about">
       <h1 class="sub-head" data-aos="fade-up">MORE ABOUT ME</h1>
       <div class="container" style="text-align: start;">
         <div class="row">
@@ -182,7 +196,7 @@
     </section>
 
     <!-- section 3 -->
-    <section id="section3">
+    <section id="exp">
       <h1 class="sub-head" data-aos="fade-up">My Experience</h1>
       <h5 id="scroller">scroll right → </h5>
       <div id="timezone" data-aos="fade-right">
@@ -204,7 +218,7 @@
       <br>
     </section>
     <!-- section6 -->
-    <section id="section6">
+    <section id="skills">
       <h2 class="sub-head" data-aos="fade-up">Skills</h2>
       <div class="container">
         <div class="row">
@@ -367,7 +381,7 @@
     </section>
 
     <!-- section 4 -->
-    <section id="section4">
+    <section id="projects">
       <h2 class="sub-head" data-aos="fade-up">Projects</h2>
       <!-- carousel -->
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -509,7 +523,7 @@
       <br>
     </section>
     <!-- section5 -->
-    <section id="section5">
+    <section id="testimonial">
       <h2 class="sub-head mobile-sub" data-aos="fade-up">Testimonials</h2>
       <div class="container">
         <div class="row">
@@ -635,7 +649,7 @@
 
     </section>
     <!-- section7 -->
-    <section id="section7">
+    <section id="contact">
 
       <h2 class="sub-head" data-aos="fade-up">LEAVE A MESSAGE</h2>
       <div class="container">
@@ -687,8 +701,7 @@
       <br>
       <br>
   </div>
-  <!-- <a href="#section1" id="scrollToTopBtn">.</a>
-       -->
+       
   </section>
   <button class="scrollToTopBtn">
     <img src="https://img.icons8.com/material-outlined/48/000000/up.png" />
@@ -732,6 +745,25 @@
       $(".nav").find(".active").removeClass("active");
       $(this).parent().addClass("active");
     });
+    // scroll active
+    const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("nav .container ul li");
+window.onscroll = () => {
+  var current = "";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop - 60) {
+      current = section.getAttribute("id"); }
+  });
+
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+};
   </script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

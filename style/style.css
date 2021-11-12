@@ -243,7 +243,7 @@ p{
 
 
 /* section1 landing  */
-#section1{
+#home{
  padding-top: 50px;
   background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/people/bg-me.jpeg);
   height: 100vh;
@@ -272,7 +272,7 @@ p{
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 /* section2 about */
-#section2{
+#about{
  background-color: rgb(53, 52, 52);
  height: 500px;
 }
@@ -333,7 +333,7 @@ button{
   color: white !important;
 }
 /* section3  experince*/
-#section3{
+#exp{
   background-color: rgb(102, 102, 102);
   height: max-content;
 }
@@ -444,7 +444,7 @@ border-radius: 5%;
   animation-iteration-count: infinite;
 }
 /* section4 project */
-#section4{
+#projects{
   background-color: rgb(102, 102, 102);
   height: max-content;
 }
@@ -490,7 +490,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /* section5  TESTIMONIALS */
-#section5{
+#testimonial{
   background-color: rgb(53, 52, 52);
   height: 800px;
 }
@@ -551,7 +551,7 @@ backdrop-filter: blur( 4px )!important;
 
 /* section6 */
 /* skills */
-#section6{
+#skills{
   background-color: rgb(53, 52, 52);
   height: 600px;
 }
@@ -578,7 +578,7 @@ backdrop-filter: blur( 4px )!important;
   height: 50px;
 }
 /* section7 contact*/
-#section7{
+#contact{
   background-color: rgb(102, 102, 102);
   height: 700px;
 }
@@ -731,16 +731,16 @@ color: white;
 }
 }
 
-#section2{
+#about{
   height: max-content;
 }
-#section6{
+#skills{
   height: max-content;
 }
-#section5{
+#testimonial{
   height: max-content;
 }
-#section7{
+#contact{
   height: max-content;
 }
 /* animations */
@@ -1193,3 +1193,45 @@ color: white;
     transform: rotate(360deg);
   }
 }
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e9c46a; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e9c46a; }
+  /* side nav */
+  nav .container ul li.active {
+    background-color: #e9c46a ;
+    border-radius:30px;
+    transition: 0.3s;
+    }
+    nav .container ul li.active a {
+    color: #000;
+    }
+  .slink{
+    margin-right: 50px;
+  }
+  .home{
+    background-color: #e9c46a ;
+    border-radius:30px;
+  }
+  .slink1:hover{
+    animation-name: wobble-hor-bottom ;
+  animation-duration: 1.4s;
+  animation-iteration-count: 1;
+  }
