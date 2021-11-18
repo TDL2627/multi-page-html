@@ -589,7 +589,7 @@ backdrop-filter: blur( 4px )!important;
 /* section7 contact*/
 #contact{
   background-color: rgb(102, 102, 102);
-  height: 700px;
+  height: 100vh !important;
 }
 .contact-head{
   text-align: start;margin-left: 200px; color: #e9c46a;
