@@ -750,7 +750,7 @@ color: white;
   height: max-content;
 }
 #contact{
-  height: max-content;
+  height: max-content !important;
 }
 /* animations */
 .heartbeat {
