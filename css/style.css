@@ -274,7 +274,7 @@ p{
 /* section2 about */
 #about{
  background-color: rgb(53, 52, 52);
- height: 500px;
+ height: 50vh;
 }
 .subbed-head1{
   color: #e9c46a;
@@ -492,7 +492,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /* section5  TESTIMONIALS */
 #testimonial{
   background-color: rgb(53, 52, 52);
-  height: 800px;
+  height: 100vh !important;
 }
 /* profiles */
 .accordion-item{
@@ -750,7 +750,7 @@ color: white;
   height: max-content;
 }
 #contact{
-  height: max-content !important;
+  height: 100vh;
 }
 /* animations */
 .heartbeat {
