@@ -36,10 +36,7 @@ html {
 .sidenav a:hover {
   color: #f1f1f1;
 }
-.navbar-toggler-icon{
- background-color: #818181;
- border-radius: 21px;
-}
+
 .navbar-toggler{
   border-color: #e9c46a !important;
 }
@@ -127,7 +124,6 @@ ul{
 }
 .navbar{
   display: none !important;
-  background-color: red !important;
 }
 .nav-link{
   color: white !important;
@@ -427,7 +423,7 @@ border-radius: 5%;
   overflow: scroll;
   padding: 150px;
   padding-left: 20px;
-  padding-right: 200px;
+  padding-right: 20px;
   margin-right: 50px !important;
   margin-left: 42px;
   overflow-y: hidden;
@@ -589,10 +585,10 @@ backdrop-filter: blur( 4px )!important;
 /* section7 contact*/
 #contact{
   background-color: rgb(102, 102, 102);
-  height: 100vh !important;
+  height: max-content !important;
 }
 .contact-head{
-  text-align: start;margin-left: 200px; color: #e9c46a;
+  text-align: start;margin-left: 90px; color: #e9c46a;
 }
 footer{
   background-color: rgb(53, 52, 52);
@@ -653,7 +649,7 @@ color: white;
     display: initial !important;
     width: max-content;
     position: fixed;
-    
+
   }
   .sidenav{
     display: none !important;
