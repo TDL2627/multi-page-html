@@ -492,7 +492,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /* section5  TESTIMONIALS */
 #testimonial{
   background-color: rgb(53, 52, 52);
-  height: 100vh !important;
+  height: max-content !important;
 }
 /* profiles */
 .accordion-item{
@@ -589,7 +589,7 @@ backdrop-filter: blur( 4px )!important;
 /* section7 contact*/
 #contact{
   background-color: rgb(102, 102, 102);
-  height: 100vh !important;
+  height: max-content !important;
 }
 .contact-head{
   text-align: start;margin-left: 200px; color: #e9c46a;
@@ -750,7 +750,7 @@ color: white;
   height: max-content;
 }
 #contact{
-  height: 100vh;
+  height: max-content !important;
 }
 /* animations */
 .heartbeat {
