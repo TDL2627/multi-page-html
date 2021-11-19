@@ -589,7 +589,7 @@ backdrop-filter: blur( 4px )!important;
 /* section7 contact*/
 #contact{
   background-color: rgb(102, 102, 102);
-  height: max-content !important;
+  height: 100vh !important;
 }
 .contact-head{
   text-align: start;margin-left: 200px; color: #e9c46a;
@@ -749,9 +749,7 @@ color: white;
 #testimonial{
   height: max-content;
 }
-#contact{
-  height: max-content !important;
-}
+
 /* animations */
 .heartbeat {
 	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
