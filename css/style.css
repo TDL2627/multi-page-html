@@ -210,7 +210,7 @@ h1{
   font-size: 50px !important;
   text-decoration: underline #e9c46a;
 }
-.downloadcv{
+#downloadcv{
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -225,7 +225,7 @@ backdrop-filter: blur( 4px );
 border-radius: 25px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.downloadcv:hover{
+#downloadcv:hover{
   color: white;
   box-shadow: 0 8px 32px 0 #e9c46a;
   background-color: black;
@@ -728,7 +728,7 @@ color: white;
 #mail{
   font-size: 15px;
 }
-.downloadcv{
+#downloadcv{
   margin-left: 75px !important;
 }
 .testi{
