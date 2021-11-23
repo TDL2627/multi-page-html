@@ -135,6 +135,7 @@
       <div class="intro">
         <h1 class="into1">Ashley Kannemeyer's</h1>
         <h1 class="into1">PORTFOLIO</h1>
+        <button style="background-color: red;" type="button" onclick="red()">red</button>
       </div>
        <div class="disamess">
          
@@ -148,7 +149,7 @@
         <div class="row">
           <div data-aos="fade-right" class="col-lg-8 intro1">
             <h3 class="subbed-head" style="text-align: start;"> I am </h3>
-            <h3 class="subbed-head2" style="text-align: start;">Ashley Kannemeyer</h3>
+            <h3 id="subbed-head2" style="text-align: start;">Ashley Kannemeyer</h3>
             <h3 class="subbed-head" style="text-align: start;">, a full stack web developer </h3>
             <br>
             <p class="sentence1">I am a smart, hard working person and very eager to learn.I love solving
@@ -164,7 +165,7 @@
             <h5 class="equaled">Ashley Kannemeyer</h5>
             <hr class="line1">
             <h5 class="equals">Email :</h5>
-            <h5 class="equaled1 mail">ashleykannemyer2@gmail.com</h5>
+            <h5 class="equaled1" id="mail">ashleykannemyer2@gmail.com</h5>
             <hr class="line1">
             <h5 class="equals">Age :</h5>
             <h5 class="equaled">21</h5>
@@ -656,14 +657,14 @@
     <!-- section7 -->
     <section id="contact">
 <br>
-
+<br>
       <h2 class="sub-head" data-aos="fade-up">LEAVE A MESSAGE</h2>
       <div class="container">
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
             <!-- the form -->
             <form action="https://formspree.io/f/mleavgwr" method="POST">
-              <h3 class="contact-head">Contact me:</h3>
+              <h4 class="contact-head cnthead">Contact me:</h4>
               <br>
               <div class="col-lg-6" style="display: flex;"> <input name="fname"
                   style="width:100%; margin-left: 2px; margin:20px; border-radius: 20px; border: none; height:40px; padding: 10px; "
@@ -674,13 +675,13 @@
               <div class="col-lg-6 areatxt"> <textarea name="messages" id="areatxt" cols="30" rows="10"
                   placeholder="Type your message" required></textarea> </div>
               <div class="col-lg-6"> <button class="send-but" type="submit">Send</button>
-                <input class="reset-but" type="reset" value="Reset">
+                <button style="color: #000000;" class="reset-but" type="reset" value="Reset">Reset</button>
               </div>
             </form>
           </div>
           <div class="col-lg-3" data-aos="fade-left">
             <br>
-            <h3 style="color: #e9c46a;">Address</h3>
+            <h4 class="cnthead" style="color: #e9c46a;">Address</h4>
             <br>
             <p class="contact-info1">42 Bongo Cresent</p>
             <p class="contact-info1">Silvertown</p>
@@ -693,7 +694,7 @@
             <p class="contact-info1"><img
                 src="https://img.icons8.com/ios-filled/30/000000/email-open.png" />ashleykannemyer2@gmail.com</p>
             <br>
-            <h4 style="color: #e9c46a;">FOLLOW ME</h4>
+            <h4 class="cnthead" style="color: #e9c46a;">FOLLOW ME</h4>
             <a id="wapp" target="_blank" href="https://wa.me/27660400809"><img
                 src="https://img.icons8.com/material-outlined/48/000000/whatsapp--v1.png" /></a>
             <a id="gapp" target="_blank" href="https://github.com/TDL2627"><img
@@ -702,7 +703,7 @@
                 src="https://img.icons8.com/material-outlined/48/000000/linkedin--v1.png" /></a>
           </div>
           <div class="col-lg-3">
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.0523868201612!2d18.528916315716003!3d-33.96549298062966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44acfca081a1%3A0xf61fd8b21a8146ea!2s42%20Bongo%20Cres%2C%20Silvertown%2C%20Cape%20Town%2C%207764!5e0!3m2!1sen!2sza!4v1637329875914!5m2!1sen!2sza" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.0523868201612!2d18.528916315716003!3d-33.96549298062966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44acfca081a1%3A0xf61fd8b21a8146ea!2s42%20Bongo%20Cres%2C%20Silvertown%2C%20Cape%20Town%2C%207764!5e0!3m2!1sen!2sza!4v1637329875914!5m2!1sen!2sza" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
 
@@ -710,8 +711,7 @@
       <br>
       <br>
       <br>
-
-  
+      
   </div>
        
   </section>

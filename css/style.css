@@ -278,7 +278,7 @@ p{
   text-align: start !important;
   
 }
-.subbed-head2{
+#subbed-head2{
   color: #e9c46a;
   display: inline !important;
   text-align: start !important;
@@ -725,7 +725,7 @@ color: white;
   margin-bottom: 100px;
   height: 70px;
 }
-.mail{
+#mail{
   font-size: 15px;
 }
 .downloadcv{
