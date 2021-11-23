@@ -613,6 +613,7 @@ textarea{
 }
 .send-but{
   margin: 20px;
+  width: 100px;
   color: #111;
   border:none;
 }
@@ -626,10 +627,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: white;
 }
 .reset-but{
+  width: 100px;
   padding: 14px;
   border-radius: 25px;
   border: none;
-  width: 200px;
+  
   font-family: sans-serif;
   background-color: #e9c46a;
   font-weight: bold;
@@ -643,6 +645,7 @@ border-radius: 25px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: white;
 }
+
 /* media queries */
 @media screen and (max-width: 600px) {
   .navbar{
@@ -651,6 +654,15 @@ color: white;
     position: fixed;
 
   }
+  #home{
+    
+     background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/people/mobile-bg.jpg);
+     height: 100vh;
+     background-repeat: none;
+     background-size: cover;
+   
+   
+   }
   .sidenav{
     display: none !important;
   }
@@ -733,6 +745,11 @@ color: white;
 }
 #logo{
   height: 50px;
+}
+#map{
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
 }
 }
 
