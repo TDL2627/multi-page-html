@@ -63,9 +63,7 @@ ul{
   color: #e9c46a;
   background: #e9c46a;
 }
-.active{
- color: #e9c46a !important;
-}
+
 
 
 
@@ -250,14 +248,12 @@ p{
 }
 #down{
   margin-top: 50px;
-  background-color: grey;
+  background-color: #e9c46a;
   border-radius: 50%;
+  padding: 15px;
   animation-name: heartbeat;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
-  visibility: hidden;
-  animation: visibility 0ms 7s both;
-  -webkit-animation: visibility 0ms 7s both;
 }
 #down:hover{
   background: white;
@@ -427,14 +423,13 @@ border-radius: 5%;
   margin-right: 50px !important;
   margin-left: 42px;
   overflow-y: hidden;
-  border-top: #e9c46a 5px solid;
-  border-left: #e9c46a 5px solid;
-  border-right: #e9c46a 5px solid;
+  border: #e9c46a 5px solid;
+ 
   border-radius: 25px;
   box-shadow: 0 8px 32px 0 #e9c46a;
 }
 #scroller{
-  color: black;
+  color: #e9c46a;
   animation-name: heartbeat;
   animation-duration:1.5s;
   animation-iteration-count: infinite;
@@ -645,7 +640,9 @@ border-radius: 25px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: white;
 }
-
+.footer-stuff{
+ margin-left: 300px;
+}
 /* media queries */
 @media screen and (max-width: 600px) {
   .navbar{
@@ -654,6 +651,9 @@ color: white;
     position: fixed;
 
   }
+  .footer-stuff{
+    margin-left: 0;
+   }
   #home{
     
      background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/people/mobile-bg.jpg);
@@ -704,9 +704,7 @@ color: white;
   margin-left: 0px !important;
   display: initial;
 }
-#timezone{
-  border-bottom: 5px #e9c46a solid !important;
-}
+
 .d-block{
   height: 250px !important;
 }

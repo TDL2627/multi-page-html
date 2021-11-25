@@ -38,7 +38,7 @@ const sectionTop = section.offsetTop;
 if (pageYOffset >= sectionTop - 60) {
   current = section.getAttribute("id"); }
 });
-
+// the active
 navLi.forEach((li) => {
 li.classList.remove("active");
 if (li.classList.contains(current)) {
@@ -64,7 +64,7 @@ function red() {
 let buttons = document.getElementsByClassName("buit");
 for (let i = 0; i < buttons.length; i++){
  buttons[i].style.backgroundColor="red";
- buttons[i].style.boxShadow="none";
+ buttons[i].style.boxShadow="0 8px 32px 0 red";
  buttons[i].style.color="white";
 }
 
@@ -94,15 +94,30 @@ for (let i = 0; i < headings3.length; i++){
 
     document.getElementById("downloadcv").style.backgroundColor="red";
     document.getElementById("downloadcv").style.color="white";
-    document.getElementById("downloadcv").style.boxShadow="none";
+    document.getElementById("downloadcv").style.boxShadow="0 8px 32px 0 red";
 
     document.getElementById("timezone").style.borderColor="red";
-    document.getElementById("timezone").style.boxShadow="none";
+    document.getElementById("timezone").style.boxShadow="0 8px 32px 0 red";
 
-    let activation = document.getElementsByClassName("nav .container ul li.active");
+    document.getElementById("scroller").style.color="red";
+
+    let activation = document.getElementsByClassName("slink1");
+    console.log(activation);
     for (let i = 0; i < activation.length; i++){
-      activation[i].style.textDecorationColor="red";
-      activation[i].style.color="white";
-      activation[i].style.backgroundColor="red";
+      if(activation[i].classList.contains("active")){
+
+        activation[i].style.textDecorationColor="red";
+        activation[i].style.color="white";
+        activation[i].style.backgroundColor="red";
+      }
     }
-  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    
+
+    let timezone = document.getElementsByClassName("li:before");
+    for (let i = 0; i <timezone.length; i++){
+      document.getElementById("timezone").style.boxShadow="0 8px 32px 0 red";
+      buttons[i].style.backgroundColor="red";
+    }
+    
+  }
+// alert("Please allow page to load to become fully functional");
