@@ -1221,13 +1221,16 @@ color: white;
     width: 150px;
     border-radius:30px;
     transition: 0.3s;
+    text-decoration: underline;
     }
     nav .container ul li.active a {
     color: #000;
     }
   .slink{
     margin-right: 50px;
+   
   }
+ 
   .home{
     background-color: #e9c46a ;
     border-radius:30px;
