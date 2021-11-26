@@ -509,17 +509,17 @@ backdrop-filter: blur( 4px )!important;
 .accordion-button{
   color:black !important;
   box-shadow: none !important;
-  background-color: #e9c46a ;
+  background-color: #e9c46a  !important;
 }
 .accordion-button:focus{
   color:black !important;
   box-shadow: none !important;
-  background-color: white !important;
+  background-color: #e9c46a !important;
 }
 .accordion-button:active{
   color:black !important;
   box-shadow: none !important;
-  background-color: white;
+  background-color: #e9c46a !important;
 }
 .accordion-button::after{
   color: black !important;
@@ -548,7 +548,9 @@ backdrop-filter: blur( 4px )!important;
 .testi{
   margin-left: 50px;
 }
-
+.testi-title{
+  color: #e9c46a !important;
+}
 /* section6 */
 /* skills */
 #skills{
