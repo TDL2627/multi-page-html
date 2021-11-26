@@ -757,6 +757,11 @@ color: white;
   margin-left: 35px !important;
   width:250px;
 }
+.carousel{
+  margin-left: 35px;
+  margin-right: 25px;
+  width: 250px;
+}
 }
 
 #about{
