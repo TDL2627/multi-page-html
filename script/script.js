@@ -138,5 +138,95 @@ for (let i = 0; i < headings3.length; i++){
 
 
   }
+  // yellow
+function yellow() {
+  document.getElementById("sideName").style.textDecorationColor="#e9c46a";
+  let subhead =document.getElementsByClassName("sub-head");
+  for (let i = 0; i < subhead.length; i++){
+   subhead[i].style.textDecorationColor="#e9c46a";
+  }
+
+
+  document.getElementById("scrolling").style.color="#e9c46a";
+
+  let headings = document.getElementsByTagName("h1");
+  for (let i = 0; i < headings.length; i++){
+   headings[i].style.textDecorationColor="#e9c46a";
+}
+
+let buttons = document.getElementsByClassName("buit");
+for (let i = 0; i < buttons.length; i++){
+buttons[i].style.backgroundColor="#e9c46a";
+buttons[i].style.boxShadow="0 8px 32px 0 #e9c46a";
+buttons[i].style.color="white";
+}
+
+let headings1 = document.getElementsByTagName("h2");
+for (let i = 0; i < headings1.length; i++){
+headings[i].style.textDecorationColor="#e9c46a";
+}
+
+document.getElementById("subbed-head2").style.color="#e9c46a";
+
+let headings3 = document.getElementsByTagName("h4");
+for (let i = 0; i < headings3.length; i++){
+headings[i].style.textDecorationColor="#e9c46a";
+}
+
+   let land = document.getElementsByClassName("into1");
+   for (let i = 0; i < land.length; i++){
+       land[i].style.color="#e9c46a";
+   }
+
+   let contactHead = document.getElementsByClassName("cnthead");
+   for (let i = 0; i < contactHead.length; i++){
+       contactHead[i].style.color="#e9c46a";
+   }
+
+   let percent = document.getElementsByClassName("p-bar");
+   for (let i = 0; i < percent.length; i++){
+       percent[i].style.backgroundColor="#e9c46a";
+       percent[i].style.color="white";
+   }
+
+   let accordion = document.getElementsByClassName("accordion-button");
+   for (let i = 0; i < accordion.length; i++){
+       accordion[i].style.backgroundColor="#e9c46a";
+       accordion[i].style.color="white";
+   }
+
+
+   let timeCard = document.getElementsByClassName(".time-card");
+   for (let i = 0; i < timeCard.length; i++){
+       timeCard[i].style.backgroundColor="#e9c46a";
+       timeCard[i].style.color="white";
+   }
+   document.getElementById("timy").style.color="#e9c46a";
+
+   document.getElementById("mail1").style.color="#e9c46a";
+
+
+
+   document.getElementById("downloadcv").style.backgroundColor="#e9c46a";
+   document.getElementById("downloadcv").style.color="white";
+   document.getElementById("downloadcv").style.boxShadow="0 8px 32px 0 #e9c46a";
+
+   document.getElementById("timezone").style.borderColor="#e9c46a";
+   document.getElementById("timezone").style.boxShadow="0 8px 32px 0 #e9c46a";
+
+
+   let activation = document.getElementsByClassName("slink1");
+   console.log(activation);
+   for (let i = 0; i < activation.length; i++){
+     if(activation[i].classList.contains("active")){
+       activation[i].style.textDecorationColor="#e9c46a";
+       activation[i].style.color="white";
+       activation[i].style.backgroundColor="#e9c46a";
+     }
+   }
+   
+
+
+ }
 
 // alert("Please allow page to load to become fully functional");
