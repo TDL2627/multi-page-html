@@ -428,7 +428,7 @@ border-radius: 5%;
   border-radius: 25px;
   box-shadow: 0 8px 32px 0 #e9c46a;
 }
-#scroller{
+#scrolling{
   color: #e9c46a;
   animation-name: heartbeat;
   animation-duration:1.5s;
@@ -509,7 +509,7 @@ backdrop-filter: blur( 4px )!important;
 .accordion-button{
   color:black !important;
   box-shadow: none !important;
-  background-color: #e9c46a !important;
+  background-color: #e9c46a ;
 }
 .accordion-button:focus{
   color:black !important;
@@ -723,7 +723,7 @@ color: white;
   margin-bottom: 100px;
   height: 70px;
 }
-#mail{
+#mail1{
   font-size: 15px;
 }
 #downloadcv{

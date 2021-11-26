@@ -56,6 +56,9 @@ function red() {
     subhead[i].style.textDecorationColor="red";
    }
 
+
+   document.getElementById("scrolling").style.color="red";
+
    let headings = document.getElementsByTagName("h1");
    for (let i = 0; i < headings.length; i++){
     headings[i].style.textDecorationColor="red";
@@ -90,7 +93,29 @@ for (let i = 0; i < headings3.length; i++){
         contactHead[i].style.color="red";
     }
 
-    document.getElementById("mail").style.color="red";
+    let percent = document.getElementsByClassName("p-bar");
+    for (let i = 0; i < percent.length; i++){
+        percent[i].style.backgroundColor="red";
+        percent[i].style.color="white";
+    }
+
+    let accordion = document.getElementsByClassName("accordion-button");
+    for (let i = 0; i < accordion.length; i++){
+        accordion[i].style.backgroundColor="red";
+        accordion[i].style.color="white";
+    }
+
+
+    let timeCard = document.getElementsByClassName(".time-card");
+    for (let i = 0; i < timeCard.length; i++){
+        timeCard[i].style.backgroundColor="red";
+        timeCard[i].style.color="white";
+    }
+    document.getElementById("timy").style.color="red";
+
+    document.getElementById("mail1").style.color="red";
+
+
 
     document.getElementById("downloadcv").style.backgroundColor="red";
     document.getElementById("downloadcv").style.color="white";
@@ -99,13 +124,11 @@ for (let i = 0; i < headings3.length; i++){
     document.getElementById("timezone").style.borderColor="red";
     document.getElementById("timezone").style.boxShadow="0 8px 32px 0 red";
 
-    document.getElementById("scroller").style.color="red";
 
     let activation = document.getElementsByClassName("slink1");
     console.log(activation);
     for (let i = 0; i < activation.length; i++){
       if(activation[i].classList.contains("active")){
-
         activation[i].style.textDecorationColor="red";
         activation[i].style.color="white";
         activation[i].style.backgroundColor="red";
@@ -113,11 +136,7 @@ for (let i = 0; i < headings3.length; i++){
     }
     
 
-    let timezone = document.getElementsByClassName("li:before");
-    for (let i = 0; i <timezone.length; i++){
-      document.getElementById("timezone").style.boxShadow="0 8px 32px 0 red";
-      buttons[i].style.backgroundColor="red";
-    }
-    
+
   }
+
 // alert("Please allow page to load to become fully functional");
